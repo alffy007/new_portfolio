@@ -1,0 +1,385 @@
+.banner {
+  height: 100%;
+  position: relative;
+  display: flex;
+  font-family: horta;
+}
+.img1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+.img1 > :nth-child(2) {
+  height: 20rem;
+  z-index: 2;
+  width: 20rem;
+}
+.img1 > :nth-child(1) {
+  width: 11rem;
+  height: 11rem;
+}
+.img2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  margin-top: 3rem;
+  right: 4rem;
+}
+.img2 > :nth-child(2) {
+  height: 17rem;
+  z-index: 2;
+  width: 17rem;
+}
+.img2 > :nth-child(1) {
+  width: 20rem;
+  height: 20rem;
+}
+
+.hero-title {
+  padding-top: 3.8rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  margin-left: 7rem;
+  font-size: 180px;
+}
+
+.hero-title > :nth-child(1) {
+  margin-left: 26.3rem;
+}
+
+.hero-title > :nth-child(2) {
+  margin-left: 15rem;
+  font-size: 200px;
+}
+
+.hero-title > :nth-child(3) {
+  margin-left: 23rem;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.hero-title > :nth-child(4) {
+  font-size: 180px;
+}
+.alffy {
+  text-shadow: 1vmin 1vmin 0 #e79c10, -1vmin -1vmin 0 #d53a33;
+  color: rgb(255, 234, 71);
+}
+
+.dev {
+  color: rgb(48, 103, 255);
+}
+
+/* above 992 */
+@media only screen and (max-width: 1200px) {
+  .banner {
+    display: flex;
+  }
+  .img1 {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 1rem;
+  }
+  .img1 > :nth-child(2) {
+    height: 15rem;
+    z-index: 2;
+    width: 15rem;
+  }
+  .img1 > :nth-child(1) {
+    width: 11rem;
+    height: 11rem;
+    z-index: 2;
+  }
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    right: 0;
+    position: absolute;
+  }
+  .img2 > :nth-child(2) {
+    height: 10rem;
+    z-index: 2;
+    width: 10rem;
+  }
+  .img2 > :nth-child(1) {
+    width: 11rem;
+    height: 11rem;
+  }
+  .hero-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    font-size: 140px;
+  }
+  .hero-title > :nth-child(1) {
+    margin-left: 14.3rem;
+  }
+
+  .hero-title > :nth-child(2) {
+    margin-left: 6rem;
+    font-size: 170px;
+  }
+  .hero-title > :nth-child(4) {
+    font-size: 120px;
+  }
+
+  .hero-title > :nth-child(3) {
+    margin-left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .img1 {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 12%;
+  }
+  .img1 > :nth-child(2) {
+    height: 12rem;
+    z-index: 2;
+    width: 12rem;
+  }
+  .img1 > :nth-child(1) {
+    width: 10rem;
+    height: 10rem;
+    z-index: 2;
+  }
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    right: 0;
+    position: absolute;
+  }
+  .img2 > :nth-child(2) {
+    height: 10rem;
+    z-index: 2;
+    width: 10rem;
+  }
+  .img2 > :nth-child(1) {
+    width: 11rem;
+    height: 11rem;
+  }
+  .hero-title {
+    margin: 0;
+    height: 90%;
+    gap: 0;
+    font-size: 110px;
+  }
+  .hero-title > :nth-child(1) {
+    margin-left: 16rem;
+  }
+
+  .hero-title > :nth-child(2) {
+    margin-left: 2rem;
+    height: 90%;
+    font-size: 160px;
+  }
+  .hero-title > :nth-child(4) {
+    margin: 0;
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .hero-title > :nth-child(3) {
+    margin-left: 11rem;
+    font-size: 120px;
+    height: 90%;
+    margin-top: 2;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .img1 {
+    margin-top: 7rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+  }
+  .img1 > :nth-child(2) {
+    height: 8rem;
+    z-index: 2;
+    width: 8rem;
+  }
+  .img1 > :nth-child(1) {
+    width: 5rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    right: 0;
+    gap: 18rem;
+    position: absolute;
+  }
+  .img2 > :nth-child(2) {
+    height: 8rem;
+    z-index: 2;
+    width: 8rem;
+  }
+  .img2 > :nth-child(1) {
+    width: 9rem;
+    height: 9rem;
+  }
+  .hero-title {
+    margin-left: 0;
+    gap: 0;
+    padding: 0;
+
+    font-size: 80px;
+  }
+  .hero-title > :nth-child(1) {
+    margin-left: 5.5rem;
+    margin-top: 4rem;
+  }
+
+  .hero-title > :nth-child(2) {
+    margin-left: 9%;
+    font-size: 120;
+  }
+  .hero-title > :nth-child(4) {
+    font-size: 105px;
+    text-align: center;
+  }
+
+  .hero-title > :nth-child(3) {
+    margin-left: 10%;
+    font-size: 90px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .img1 {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 7rem;
+  }
+  .img1 > :nth-child(2) {
+    height: 8rem;
+    z-index: 2;
+    width: 8rem;
+  }
+  .img1 > :nth-child(1) {
+    width: 6rem;
+    height: 6rem;
+    z-index: 2;
+  }
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    right: 0;
+    position: absolute;
+  }
+  .img2 > :nth-child(2) {
+    height: 9rem;
+    z-index: 2;
+    width: 9rem;
+  }
+  .img2 > :nth-child(1) {
+    width: 8rem;
+    height: 8rem;
+  }
+  .hero-title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    font-size: 80px;
+    gap: 0;
+  }
+  .hero-title > :nth-child(1) {
+    margin-left: 5.5rem;
+  }
+
+  .hero-title > :nth-child(2) {
+    margin-left: 0.5rem;
+    font-size: 170px;
+  }
+  .hero-title > :nth-child(4) {
+    font-size: 95px;
+    margin: 0;
+  }
+  .dev {
+    margin: 2rem;
+  }
+
+  .hero-title > :nth-child(3) {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .img1 {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 1rem;
+  }
+  .img1 > :nth-child(2) {
+    height: 15rem;
+    z-index: 2;
+    width: 15rem;
+  }
+  .img1 > :nth-child(1) {
+    width: 11rem;
+    height: 11rem;
+    z-index: 2;
+  }
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    right: 0;
+    position: absolute;
+  }
+  .img2 > :nth-child(2) {
+    height: 10rem;
+    z-index: 2;
+    width: 10rem;
+  }
+  .img2 > :nth-child(1) {
+    width: 11rem;
+    height: 11rem;
+  }
+  .hero-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    font-size: 140px;
+  }
+  .hero-title > :nth-child(1) {
+    margin-left: 14.3rem;
+  }
+
+  .hero-title > :nth-child(2) {
+    margin-left: 6rem;
+    font-size: 170px;
+  }
+  .hero-title > :nth-child(4) {
+    font-size: 120px;
+  }
+
+  .hero-title > :nth-child(3) {
+    margin-left: 14rem;
+  }
+}

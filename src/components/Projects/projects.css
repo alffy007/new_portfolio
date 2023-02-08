@@ -1,0 +1,18 @@
+.projects{
+    display: flex;
+     flex-direction: column;
+    background-color: rgb(229, 215, 215);
+    color: #000000;
+   top: 0;
+   padding: 6%; 
+   font-family: "Exo 2", sans-serif;
+}
+.title{
+    color: #fde9ff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 10vw, 6rem);
+    text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9, -2px 2px 1px #e94aa1,
+      1px -1px 1px #f736f9;
+    z-index: 1;
+}

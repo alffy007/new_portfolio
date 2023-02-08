@@ -1,0 +1,59 @@
+.navbar{
+ 
+   display: flex;
+   gap: 7rem;
+   margin-left: 40%;
+position: fixed;z-index: 9999;
+height: fit-content;
+padding: 10px;}
+a:nth-child(1){
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+
+}
+a:nth-child(2){
+    color: rgb(255, 45, 45);
+}
+a:nth-child(3){
+    color: rgb(255, 220, 45);
+}
+a:hover:nth-child(1){
+    color: rgb(255, 204, 0);
+}
+a:hover:nth-child(2){
+    color: rgb(0, 115, 255);
+}
+a:hover:nth-child(3){
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        margin-left: 35%;
+    }
+    
+    }
+    @media only screen and (max-width: 769px) {
+        .navbar{
+            margin-left: 30%;
+        }
+        
+        }
+
+        @media only screen and (max-width: 426px) {
+            .navbar{
+                margin-left: 30px;
+            }
+            
+            }
+            @media only screen and (max-width:375px) {
+                .navbar{
+                    margin-left: 35%;
+                }
+                
+                }
+                @media only screen and (max-width: 320px) {
+                    .navbar{
+                        margin-left: 35%;
+                    }
+                    
+                    }
