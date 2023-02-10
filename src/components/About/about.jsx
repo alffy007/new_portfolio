@@ -51,7 +51,7 @@ window.addEventListener('scroll',changeSkillbox);
                 <span className="title">Javascript</span>
                 <div className="skill-bar">
                     <span className="skill-per html">
-                        <span className="tooltip">95%</span>
+                        <span className="tooltip">80%</span>
                     </span>
                 </div>
             </div>
@@ -59,7 +59,7 @@ window.addEventListener('scroll',changeSkillbox);
                 <span className="title">C++</span>
                 <div className="skill-bar">
                     <span className="skill-per css">
-                        <span className="tooltip">80%</span>
+                        <span className="tooltip">60%</span>
                     </span>
                 </div>
             </div>
@@ -67,7 +67,7 @@ window.addEventListener('scroll',changeSkillbox);
                 <span className="title">C</span>
                 <div className="skill-bar">
                     <span className="skill-per javascript">
-                        <span className="tooltip">60%</span>
+                        <span className="tooltip">50%</span>
                     </span>
                 </div>
             </div>
@@ -75,7 +75,7 @@ window.addEventListener('scroll',changeSkillbox);
                 <span className="title">Flutter</span>
                 <div className="skill-bar">
                     <span className="skill-per nodejs">
-                        <span className="tooltip">40%</span>
+                        <span className="tooltip">85%</span>
                     </span>
                 </div>
             </div>
@@ -83,7 +83,7 @@ window.addEventListener('scroll',changeSkillbox);
                 <span className="title">ReactJS</span>
                 <div className="skill-bar">
                     <span className="skill-per reactjs">
-                        <span className="tooltip">70%</span>
+                        <span className="tooltip">90%</span>
                     </span>
                 </div>
             </div>
