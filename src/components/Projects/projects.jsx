@@ -7,6 +7,20 @@ const projects = () => {
       <div className="title">
         PROJECTS
       </div>
+      <div class="l-container">
+  <div class="b-game-card">
+    <div class="b-game-card__cover" ></div>
+  </div>
+  <div class="b-game-card">
+    <div class="b-game-card__cover"></div>
+  </div>
+  <div class="b-game-card">
+    <div class="b-game-card__cover"></div>
+  </div>
+  <div class="b-game-card">
+    <div class="b-game-card__cover"></div>
+  </div>
+</div>
     </div>
     </div>
   )
