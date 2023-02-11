@@ -156,10 +156,37 @@ height: 170px;
 }
 @media screen and (max-width:769px) {
   .contact{
-   transform: scale(0.7);
-    margin-top: 0px;
-    margin-left: 5px;
+    gap: 0;
+    margin-left:30px;
+    padding: 0;
   }
+  .left{
+    margin: 0;
+
+    transform: scale(0.7);
+    width: 120px;
+  }
+  .right{
+    transform: scale(0.7);
+    width: 370px;
+    margin: 0;
+  }
+  .number{
+    transform: scale(0.7);
+  }
+  .email{
+    transform: scale(0.7);
+  }
+  .location{
+    transform: scale(0.7);
+  }
+.input1{
+  width: 300px;
+}
+.input2{
+  width: 280px;
+}
+
 }
 @media screen and (max-width:426px) {
  .contact{
