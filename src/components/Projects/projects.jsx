@@ -18,7 +18,11 @@ const Projects = () => {
           }}>Projects</h1>
       <div class="l-container">
         
-  <div class="b-game-card">
+  <div class="b-game-card" style={{
+            transform: isInView ? "none" : "rotateY( 180deg ) ",
+            opacity: isInView ? 1 : 0,
+            transition: "transform 1s"
+          }}>
     
     <div class="b-game-card__cover" ref={ref} style={{ 
       backgroundImage: `url(${background1})` 
@@ -27,17 +31,29 @@ const Projects = () => {
     </div>
    
   </div>
-  <div class="b-game-card">
+  <div class="b-game-card"  style={{
+            transform: isInView ? "none" : "rotateY( 180deg ) ",
+            opacity: isInView ? 1 : 0,
+            transition: "transform 1.5s"
+          }}>
     <div class="b-game-card__cover" style={{ 
       backgroundImage: `url(${background2})` 
     }} ></div>
   </div>
-  <div class="b-game-card">
+  <div class="b-game-card"  style={{
+            transform: isInView ? "none" : "rotateY( 180deg ) ",
+            opacity: isInView ? 1 : 0,
+            transition: "transform 2s"
+          }}>
     <div class="b-game-card__cover" style={{ 
       backgroundImage: `url(${background3})` 
     }} ></div>
   </div>
-  <div class="b-game-card">
+  <div class="b-game-card"  style={{
+            transform: isInView ? "none" : "rotateY( 180deg ) ",
+            opacity: isInView ? 1 : 0,
+            transition: "transform 2.5s"
+          }}>
     <div class="b-game-card__cover" style={{ 
       backgroundImage: `url(${background4})` 
     }} ></div>
