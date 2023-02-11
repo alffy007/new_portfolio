@@ -7,36 +7,49 @@
 .img1 {
   position: absolute;
   display: flex;
+
   flex-direction: column;
   gap: 9rem;
   margin-top: 5rem;
   margin-left: 10rem;
+ 
+  
 }
 .img1 > :nth-child(2) {
   height: 20rem;
   z-index: 2;
+  bottom: 0%;
+  position: relative;
+  animation: floating 2s infinite alternate-reverse ease-in-out;
   width: 20rem;
+
 }
 .img1 > :nth-child(1) {
   width: 11rem;
   height: 11rem;
+  position: relative;
+  animation: floating 2.6s infinite alternate ease-in-out;
 }
 .img2 {
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 9rem;
-  margin-top: 3rem;
+  gap: 6rem;
+  margin-top: 1rem;
   right: 4rem;
 }
 .img2 > :nth-child(2) {
   height: 17rem;
   z-index: 2;
   width: 17rem;
+  position: relative;
+  animation: floating 2.6s infinite alternate ease-in-out;
 }
 .img2 > :nth-child(1) {
   width: 20rem;
   height: 20rem;
+  position: relative;
+  animation: floating 2s infinite alternate-reverse ease-in-out;
 }
 
 .hero-title {
@@ -44,6 +57,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+   animation: floating-1 3s infinite alternate-reverse ease-in-out;
   width: fit-content;
   margin-left: 7rem;
   font-size: 180px;
@@ -69,6 +83,8 @@
   font-size: 180px;
 }
 .alffy {
+  position: relative;
+
   text-shadow: 1vmin 1vmin 0 #e79c10, -1vmin -1vmin 0 #d53a33;
   color: rgb(255, 234, 71);
 }
@@ -76,6 +92,32 @@
 .dev {
   color: rgb(48, 103, 255);
 }
+
+@keyframes floating{
+  0% {
+   bottom: 0px ;
+  }
+100% {
+   bottom: 40PX;
+  }
+  
+}
+@keyframes floating-1{
+  0% {
+   bottom: 0px ;
+  }
+100% {
+   bottom: 10PX;
+  }
+  
+}
+
+
+
+
+
+
+
 
 /* above 992 */
 @media only screen and (max-width: 1200px) {
@@ -145,7 +187,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    gap: 12%;
+    gap: 120px;
   }
   .img1 > :nth-child(2) {
     height: 12rem;

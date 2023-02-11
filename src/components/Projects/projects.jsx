@@ -1,21 +1,26 @@
-import React from 'react'
+import React, {useRef } from "react";
 import './projects.css'
 import background1 from "../images/nexar.png"
 import background2 from "../images/metaflix.png"
 import background3 from "../images/hato.jpg"
 import background4 from "../images/chatapp.jpg"
-const projects = () => {
+import { useInView } from "framer-motion";
+const Projects = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <div id='projects' className='projects'>
     <div className="content">
-      <div className="title">
-        PROJECTS
-      </div>
+      <h1   style={{
+            transform: isInView ? "none" : "translateY(200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+          }}>Projects</h1>
       <div class="l-container">
         
   <div class="b-game-card">
     
-    <div class="b-game-card__cover" style={{ 
+    <div class="b-game-card__cover" ref={ref} style={{ 
       backgroundImage: `url(${background1})` 
     }} >
    
@@ -43,4 +48,4 @@ const projects = () => {
   )
 }
 
-export default projects
+export default Projects

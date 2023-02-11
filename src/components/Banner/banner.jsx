@@ -5,9 +5,10 @@ import img2 from "../images/image2.png";
 import img3 from "../images/image3.png";
 import img4 from "../images/image4.png";
 
+
 function banner() {
   return (
-    <div className="banner">
+    <div className="banner" id="/">
       <div className="img1">
         <img src={img1} alt="hh" />
         <img src={img2} alt="hh" />

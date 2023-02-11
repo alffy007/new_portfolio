@@ -16,6 +16,7 @@ if (window.scrollY >= 300) {
 
   return (
  <div className={navbar ? 'navbar active' : 'navbar'}>
+  <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
  <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
  <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
  <Link to="contacts" spy={true} smooth={true} offset={50} duration={500}>Contacts</Link>

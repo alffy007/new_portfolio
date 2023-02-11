@@ -5,17 +5,8 @@
   border-radius: 60px;
   color: #000000;
   top: 0;
-  padding: 6%;
+  padding: 30px;
   font-family: "Exo 2", sans-serif;
-}
-
-.title {
-  color: #fde9ff;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: clamp(3rem, 10vw, 6rem);
-  text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9, -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
-  z-index: 1;
 }
 
 .b-game-card__cover > :nth-child(1) {
@@ -35,15 +26,28 @@
 }
 
 .l-container {
-  margin-left: 8%;
+  margin-top: 10px;
+  margin-left: 13%;
+  margin-bottom: 6%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   width: 100%;
   max-width: 1200px;
 }
+
+@media screen and (max-width: 1200px){
+  .l-container {
+    margin-left: 0%;
+    
+  }
+}
+
+
+
 @media screen and (max-width: 760px) {
   .l-container {
+    margin-left: 0%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -111,3 +115,8 @@
   opacity: 0.6;
   transform: rotateX(7deg) translateY(-6px) scale(1.05);
 }/*# sourceMappingURL=projects.css.map */
+@media screen and (max-width:426px) {
+  h1{
+    font-size: 30px;
+  }
+}

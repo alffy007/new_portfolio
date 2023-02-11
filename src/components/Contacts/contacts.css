@@ -145,3 +145,82 @@ height: 170px;
   cursor: pointer;
   background-color: rgb(87, 175, 251);
 }
+@media screen and (max-width:1200px) {
+  .left{
+    margin-left: 125px;
+    width: 20%;
+  }
+  .right{
+    width: 40%;
+  }
+}
+@media screen and (max-width:769px) {
+  .contact{
+   transform: scale(0.7);
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width:426px) {
+ .contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: scale(0.6);
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+ }
+ .left{
+  padding: 0px;
+width: 250px;
+  margin: 0;
+  border-radius: 30px;
+  
+
+ }
+ .form{
+  width: 90px;
+  margin: 0;
+  gap: 0;
+  padding: 0;
+ }
+ .vl{
+  display: none;
+ }
+ .right{
+  gap: 0;
+  border-radius: 30px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+ 
+ }
+ .number{
+  margin: 0;
+  padding: 0;
+  transform: scale(0.5);
+ }
+ .email{
+  transform: scale(0.5);
+ }
+ .location{
+  transform: scale(0.5);
+ }
+.name{
+  transform: scale(0.5);
+}
+.send-email{
+  
+  transform: scale(0.5);
+}
+.message{
+  transform: scale(0.5);
+}
+.submit{
+  margin-left: 80px;
+  margin-bottom: 30px;
+  transform: scale(0.5);
+}
+}
