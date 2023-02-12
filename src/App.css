@@ -13,7 +13,7 @@
    scroll-behavior: smooth;
 }
 .App{
-   
+   overflow-x: hidden;
    background-size: auto;
    background-image: url(./components/images/back.png);
 }
