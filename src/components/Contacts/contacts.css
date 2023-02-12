@@ -188,7 +188,7 @@ height: 170px;
 }
 
 }
-@media screen and (max-width:426px) {
+@media screen and (max-width:433px) {
  .contact{
   display: flex;
   align-items: center;
